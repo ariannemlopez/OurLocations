@@ -1,0 +1,60 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.16'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.26.0'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '4.26.0'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '4.26.0'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-safari-driver
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-safari-driver', version: '4.26.0'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-edge-driver
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-edge-driver', version: '4.26.0'
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-java
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.20.1'
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.18.1'
+    // https://mvnrepository.com/artifact/org.testng/testng
+    testImplementation group: 'org.testng', name: 'testng', version: '7.10.2'
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-testng
+    implementation group: 'io.cucumber', name: 'cucumber-testng', version: '7.20.1'
+
+//    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+//    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+tasks.test {
+    description = "Runs test in Chrome"
+    useTestNG()
+//    setSystemProperty("browser", "chrome")
+}
+
+tasks.register ("testff", Test) {
+    description = "Runs test in Firefox"
+    useTestNG()
+    systemProperty("browser", "firefox")
+}
+
+tasks.register ("testSafari", Test) {
+    description = "Runs test in Safari"
+    useTestNG()
+    systemProperty("browser", "safari")
+}
+
+tasks.register("testedge", Test) {
+    description = "Runs test in Edge"
+    useTestNG()
+    systemProperty("browser", "edge")
+}

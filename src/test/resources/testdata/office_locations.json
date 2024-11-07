@@ -1,0 +1,71 @@
+{
+  "New Zealand": [
+    {
+      "city": "Auckland",
+      "address": "58 Gaunt Street, Auckland CBD, Auckland 1010",
+      "link": "https://www.google.com/maps/place/Datacom/@-36.8445875,174.7526463,17z/data=!3m1!4b1!4m5!3m4!1s0x6d0d47ef1e1ac11b:0xc74b666e293edd41!8m2!3d-36.8445918!4d174.754835",
+      "phone": "+64 9 303 1489",
+      "email": "reception.gaunt@datacom.co.nz"
+    },
+    {
+      "city": "Christchurch",
+      "address": "67 Gloucester Street, Christchurch 8013",
+      "link": "https://www.google.com/maps/place/Datacom+Christchurch/@-43.529658,172.629724,17z/data=!3m1!4b1!4m5!3m4!1s0x6d318a3eaaca0255:0xb42f375e6317fb5c!8m2!3d-43.5296619!4d172.6319127",
+      "phone": "+64 3 379 7775",
+      "email": "reception.christchurch@datacom.co.nz"
+    },
+    {
+      "city": "Dunedin",
+      "address": "Level 1, 77 Vogel Street, Dunedin 9011",
+      "link": "https://www.google.com/maps/place/Level+1%2F77+Vogel+Street,+Central+Dunedin,+Dunedin+9011,+New+Zealand/@-45.8797626,170.5012531,17z/data=!3m1!4b1!4m5!3m4!1s0xa82eac1020f1bcad:0x1a6430c412592fa1!8m2!3d-45.8797626!4d170.5034418?entry=ttu",
+      "phone": "+64 3 379 7775",
+      "email": "reception.christchurch@datacom.co.nz"
+    }
+  ],
+  "Australia": [
+    {
+      "city": "Canberra",
+      "address": "Level 12, Civic Quarter, 68 Northbourne Ave, Canberra, ACT 2601",
+      "link": "https://www.google.com/maps/place/Civic+Quarter/@-35.2766771,149.1280448,17z/data=!4m9!1m2!2m1!1sDatacom+68+Northbourne+Avenue,+Canberra+ACT,+Australia!3m5!1s0x6b164d990fa7a7ed:0x97ac271e7ab17467!8m2!3d-35.2767339!4d149.1305979!15sCjZEYXRhY29tIDY4IE5vcnRoYm91cm5lIEF2ZW51ZSwgQ2FuYmVycmEgQUNULCBBdXN0cmFsaWEiA4gBAVo2IjRkYXRhY29tIDY4IG5vcnRoYm91cm5lIGF2ZW51ZSBjYW5iZXJyYSBhY3QgYXVzdHJhbGlhkgEQY29ycG9yYXRlX29mZmljZQ",
+      "phone": "+61 2 6112 0200",
+      "email": "contactact@datacom.com.au"
+    },
+    {
+      "city": "Melbourne",
+      "address": "Level 11, Two Melbourne Quarter, 697 Collins Street, Docklands, Victoria 3008",
+      "link": "https://www.google.com/maps/place/Two+Melbourne+Quarter/@-37.8198021,144.9496341,17z/data=!3m1!4b1!4m5!3m4!1s0x6ad65d5f0f07112b:0x1ce470283ce683ca!8m2!3d-37.8198064!4d144.9518228",
+      "phone": "+61 3 9626 9600",
+      "email": "vic-reception@datacom.com.au"
+    },
+    {
+      "city": "Perth",
+      "address": "Level 11, 66 St. George's Terrace, Perth, Western Australia 6000",
+      "link": "https://www.google.com/maps/place/Datacom/@-31.9549193,115.8564416,17z/data=!3m2!4b1!5s0x2a32bad6171a3b6f:0xfd1f90d77aed2607!4m5!3m4!1s0x2a32bb23f096b74f:0x52b27eefda532c8f!8m2!3d-31.9549239!4d115.8586303",
+      "phone": "+61 8 6466 6888",
+      "email": "wa.clientservices@datacom.com.au"
+    }
+  ],
+  "Asia": [
+    {
+      "city": "Malaysia",
+      "address": "Level 3A, 1 Sentral, Jalan Rakyat, Kuala Lumpur Sentral, Kuala Lumpur 50470",
+      "link": "https://www.google.com/maps/place/Datacom+Systems+(Asia)+Sdn+Bhd/@3.1313986,101.6812494,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc4ec88a155457:0x5abd916580cdab04!8m2!3d3.1313932!4d101.6834381",
+      "phone": "+60 3 2109 1000",
+      "email": "info-kl@datacom.com.au"
+    },
+    {
+      "city": "Philippines",
+      "address": "Level 23F, IBM Plaza, 8 Eastwood Ave, Bagumbayan, Quezon City, 1110 Metro Manila, Philippines",
+      "link": "https://www.google.com/maps/place/Datacom+IT+Systems+(Phil)+Inc/@14.607631,121.0775972,17z/data=!3m1!4b1!4m5!3m4!1s0x3397b81d5c3174b1:0x348eec51c0dc13f6!8m2!3d14.6076258!4d121.0797859",
+      "phone": "+63 2 717 6300",
+      "email": "caracamille.cruz@datacom.com.au"
+    },
+    {
+      "city": "Singapore",
+      "address": "38 Beach Road, South Beach Tower, #29-11 Singapore 189767",
+      "link": "https://www.google.com/maps/place/South+Beach+Tower/@1.2952129,103.8563797,19.5z/data=!4m12!1m6!3m5!1s0x31da191278aec65b:0x2ff2313b2ede5a79!2sTMF+SINGAPORE+H+PTE.+LTD.!8m2!3d1.2956371!4d103.8566006!3m4!1s0x31da19af801edee5:0x768e2b207b22e153!8m2!3d1.2955984!4d103.8563964",
+      "phone": "+60 3 2109 1000",
+      "email": "felicisimo.gadaingan@datacom.com.au"
+    }
+  ]
+}
